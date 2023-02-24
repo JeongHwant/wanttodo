@@ -1,0 +1,53 @@
+.quote span,
+.clock,
+.date,
+.greeting{
+    text-align: center;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.todo-form,
+.login-form
+{
+    display: flex;
+    justify-content: center;
+}
+.todo-list{
+    display: flex;
+    flex-direction: column;
+   justify-content: center; 
+   align-items: center;
+}
+
+
+.li{
+    padding-bottom:  50px;
+    margin-bottom: 50px;
+}
+
+
+
+.hidden {
+    display: none;
+/*공간 유지시켜주는 visibility:hidden; 도 있다 */
+}
+
+
+
+body {
+    background-image: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fimage.nmv.naver.net%2Fcafe_2023_01_25_625%2Fc8ccbdfd-9cb8-11ed-a11e-a0369ffab2c4_01.jpg&type=a340");
+    background-size: cover;
+  } 
+
+
+.iconsun{
+    position: absolute;
+    top: 2%;
+    left: 3%;
+}
+
